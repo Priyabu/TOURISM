@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/summer-blue-sky-and-white-cloud-white-background-beautiful-clear-in-picture-id1328689113?b=1&k=20&m=1328689113&s=170667a&w=0&h=4IZiq2LkEUGGdtbMgk3dnNY813p7dySb23bUT64i1_8=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topbar{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(71, 83, 94);
+    margin-top: 10px;
+    opacity: 0.75;
+}
+.grid{
+    width: 100%;
+    height: 90px;
+}
+img{
+    height: 90px;
+    width: 120px;
+    opacity: ;
+}
+.col-5 h2{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.col-5 ul{
+    float: right;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.col-5 ul li{
+    display: inline;
+    margin-right: 25px ;
+}
+.col-5 ul li:hover{
+    color: rgb(72, 169, 235);
+    text-decoration: underline;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 20px;       
+}
+.card:hover{
+    box-shadow: 5px 5px 10px;
+    transition: .2s;
+}
+.btn a:hover{
+    color: rgb(101, 240, 9);
+}
+.col-6 ul li{
+    display: inline;
+    margin-right: 25px;
+}

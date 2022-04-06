@@ -1,0 +1,64 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZnJhbmNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topbar{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(71, 83, 94);
+    margin-top: 10px;
+    opacity: 0.75;
+}
+.grid{
+    width: 100%;
+    height: 90px;
+}
+img{
+    height: 90px;
+    width: 120px;
+    opacity: ;
+}
+.col-5 h2{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.col-5 ul{
+    float: right;
+    color: whitesmoke;
+    padding-top: 30px;
+}
+.col-5 ul li{
+    display: inline;
+    margin-right: 25px ;
+}
+
+
+.container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(71, 83, 94);
+    margin-top: 20px;
+    opacity: 0.75;
+}
+.container h2{
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    opacity: 1;
+}
+col-4 label{
+    color: whitesmoke;
+}
+
+
+.col-6 ul li{
+    display: inline;
+    margin-right: 25px;
+}
+.list-unstyled li a:hover{
+    color: aqua;
+}
+

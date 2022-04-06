@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>BOOKING</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="topbar">
+        <div class="grid">
+            <div class="row">
+                <div class="col-2">
+                    <img src="image 2.png" alt="World Visit">
+                </div>
+                <div class="col-5">
+                    <h2>Welcome to World Class Tourism...!</h2>
+                </div>
+                <div class="col-5">
+                    <ul class="list-unstyled" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+                        <li><a href="file:///C:/Users/Admin/Desktop/TOURISM/home.html" style="color: whitesmoke;">Home</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/TOURISM/about.html" style="color: whitesmoke;">About</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/TOURISM/service.html" style="color: whitesmoke;">Service</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/TOURISM/gallery.html" style="color: whitesmoke;">Gallery</a></li>
+                        <li><a href="file:///C:/Users/Admin/Desktop/TOURISM/Booking.html" style="color: whitesmoke;">Booking</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form>
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="NAME">Enter your Name :   </label>
+        <input type="text" id="NAME" name="NAME" placeholder="--Enter your Name--" required="on">
+        </div>   
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="EMAIL">Enter your e-mail :   </label>
+        <input type="text" name="booking" placeholder="--Enter your e-mail--" required="on">
+        </div>   
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="PHONE">Enter your Phone No :   </label>
+        <input type="text" name="booking" placeholder="--Enter your Phone No--" required="on"> 
+        </div>       
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="CARD">Select Your Valid ID Proof :   </label>
+            <select name="CARD" id="CARD" required>
+                <option placeholder="card">--Choose Your ID--</option>
+                <option value="card">Aadhar Card</option>
+                <option value="card">Passport</option>
+                <option value="card">Driving Lisence</option>
+                <option value="card">PAN Card</option>
+            </select>
+        </div>
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="PHONE">Enter your ID No :   </label>
+        <input type="text" name="booking" placeholder="--Enter your ID No--" required="on">
+        </div>
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="PHONE">Enter your Count :   </label>
+        </div>    
+        <div class="grid" style="margin-top: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <div class="row">
+                <div class="col-3" style="margin-left: 100px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <label for="COUNT">Adults :   </label>
+            <select name="COUNT" id="CARD" required>
+                <option placeholder="count">--Select Your Count--</option>
+                <option value="count">0</option>
+                <option value="count">1</option>
+                <option value="count">2</option>
+                <option value="count">3</option>
+                <option value="count">4</option>
+                <option value="count">5</option>
+            </select>
+                </div>
+                <div class="col-4" style="opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <label for="COUNT">Childrens :   </label>
+            <select name="COUNT" id="CARD" required>
+                <option placeholder="count">--Select Your Count--</option>
+                <option value="count">0</option>
+                <option value="count">1</option>
+                <option value="count">2</option>
+                <option value="count">3</option>
+                <option value="count">4</option>
+                <option value="count">5</option>
+            </select>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="CITY">Plan Your City :   </label>
+            <select name="CITY" id="CARD" required>
+                <option placeholder="city">--Choose to Visit--</option>
+                <option value="city">India</option>
+                <option value="city">France</option>
+                <option value="city">Italy</option>
+                <option value="city">Andaman Nicobar</option>
+                <option value="city">Goa</option>
+                <option value="city">Malaysia</option>
+                <option value="city">Singapore</option>
+                <option value="city">Maldives</option>
+                <option value="city">Tailand</option>
+                <option value="city">Spain</option>
+            </select>
+        </div>
+        <div style="margin-top: 20px; margin-left: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="DATE">Schedule Your Dates :   </label>
+          </div>
+        <div class="grid" style="margin-top: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <div class="row">
+                <div class="col-3" style="margin-left: 100px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <label for="DATE">From :   </label>
+                    <input type="DATE" id="checkin-date" name="FROM" required>
+                </div>
+                <div class="col-4" style="opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    <label for="DATE">To :   </label>
+                    <input type="DATE" id="checkin-date" name="TO" required>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="COUNT">Select Your Occasion :   </label>
+            <select name="COUNT" id="CARD" required>
+                <option placeholder="count">--Select Your Occasion--</option>
+                <option value="count">Honey Moon</option>
+                <option value="count">Summer Vecation</option>
+                <option value="count">Family Visit</option>
+                <option value="count">Culture Out</option>
+                <option value="count">Fun Trip</option>
+                <option value="count">Party Mode</option>
+                <option value="count">Trekking</option>
+                <option value="count">Spritual out</option>
+            </select>
+        </div>
+        <div style="margin-top: 20px; margin-left: 125px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+            <label for="blog"></label><br>
+            <textarea name="blog" id="blog" cols="125" rows="5">Add Your Message...</textarea>
+        </div>
+        <div style="margin-top: 20px;margin-left: 125px; margin-bottom: 20px; opacity: 0.80; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <button><a href="order.png" style="color: black; opacity: 0.80;">Submit</a></button>
+        </div>   
+    </form>
+</body>
+<footer>
+    <div class="bottombar">
+        <div class="row">
+            <div class="col-6">
+                <ul class="list-unstyled">
+                    <li><a href="http://127.0.0.1:5500/home.html" style="color: black;">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/about.html" style="color: black;">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/service.html" style="color: black;">Service</a></li>
+                        <li><a href="http://127.0.0.1:5500/gallery.html" style="color: black;">Gallary</a></li>
+                        <li><a href="http://127.0.0.1:5500/Booking.html?NAME=n+dmn&booking=kjdfklf&booking=kdvlknv&CARD=--Choose+Your+ID--&booking=kdf&COUNT=--Select+Your+Count--&COUNT=--Select+Your+Count--&CITY=--Choose+to+Visit--&FROM=2022-04-12&TO=2022-04-30&COUNT=--Select+Your+Occasion--&blog=Add+Your+Message..." style="color: black;">Booking</a></li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <p style="float: right; padding-right: 20px; color: bisque;"> &copy; 2022 | Designed by ARCHIT</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
+        
